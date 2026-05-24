@@ -9,7 +9,7 @@
 
 ## 📋 Sobre o Projeto
 
-Este estudo aplica técnicas de **análise de sobrevivência** para investigar os fatores prognósticos associados ao tempo de sobrevida de pacientes diagnosticados com **carcinoma espinocelular da orofaringe** — um tipo de câncer de cabeça e pescoço com alto risco de metástase linfonodal.
+Este estudo aplica técnicas de **análise de sobrevivência** para investigar os fatores prognósticos associados ao tempo de sobrevida de pacientes diagnosticados com **carcinoma espinocelular da orofaringe** — um tipo de câncer de pele.
 
 A motivação central é que dados clínicos de tempo-até-evento frequentemente apresentam **censura** (pacientes que não chegaram ao desfecho durante o estudo), o que inviabiliza métodos estatísticos tradicionais e exige técnicas específicas de sobrevivência.
 
