@@ -88,6 +88,51 @@ O modelo final de Cox reteve as covariáveis **GRADE**, **T_STAGE**, **N_STAGE**
 
 ---
 
+## 🖼️ Visualizações
+ 
+### Curvas de Kaplan-Meier
+ 
+#### Condição Funcional do Paciente (COND)
+> Covariável com maior impacto na sobrevida — pacientes sem incapacidade apresentam probabilidade de sobrevivência significativamente maior (p < 0,001)
+ 
+![KM COND](figures/cond.png)
+ 
+#### Estadiamento do Tumor (T_STAGE)
+> Tumores invasivos maciços (T4) apresentam queda acentuada na curva de sobrevivência em relação aos estágios iniciais (p = 0,004)
+ 
+![KM T_STAGE](figures/tstage.png)
+ 
+#### Comprometimento Linfonodal (N_STAGE)
+> Separação progressiva das curvas ao longo do tempo — pacientes com múltiplos linfonodos comprometidos têm pior prognóstico (p = 0,004)
+ 
+![KM N_STAGE](figures/nstage.png)
+ 
+#### Grau Histológico (GRADE)
+> Diferença significativa entre grau moderadamente diferenciado e pouco diferenciado (p = 0,03)
+ 
+![KM GRADE](figures/grade.png)
+ 
+#### Local da Doença (SITE)
+> Curvas sem diferença estatisticamente significativa entre os grupos (p > 0,05)
+ 
+![KM SITE](figures/site.png)
+ 
+---
+ 
+### Diagnóstico do Modelo de Cox
+ 
+#### Resíduos de Schoenfeld
+> Ausência de inclinação relevante confirma a suposição de proporcionalidade dos riscos para GRADE, T_STAGE e N_STAGE
+ 
+![Schoenfeld](figures/teste_ph.png)
+ 
+#### log(Λ(t)) vs tempo — COND
+> Curvas sem cruzamento indicam que, apesar do sinal no teste formal, a violação da proporcionalidade para COND não é severa
+ 
+![Log risco COND](figures/fit4.png)
+
+
+
 ## 📁 Estrutura do Repositório
 
 ```
