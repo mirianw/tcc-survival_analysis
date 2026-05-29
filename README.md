@@ -5,7 +5,7 @@
 
 ---
 
-## 📋 Sobre o Projeto
+##  Sobre o Projeto
 
 Este estudo aplica técnicas de **análise de sobrevivência** para investigar os fatores prognósticos associados ao tempo de sobrevida de pacientes diagnosticados com **carcinoma espinocelular da orofaringe** — um tipo de câncer de pele.
 
@@ -13,7 +13,7 @@ A motivação central é que dados clínicos de tempo-até-evento frequentemente
 
 ---
 
-## 📊 Dados
+##  Dados
 
 - **Fonte:** Radiation Therapy Oncology Group (RTOG) — estudo clínico multicêntrico com 16 instituições
 - **Amostra:** 195 pacientes diagnosticados com carcinoma espinocelular da orofaringe
@@ -34,7 +34,7 @@ A motivação central é que dados clínicos de tempo-até-evento frequentemente
 
 ---
 
-## 🔬 Metodologia
+##  Metodologia
 
 ### 1. Análise Descritiva
 Caracterização do perfil clínico dos pacientes e quantificação da proporção de censuras na amostra.
@@ -57,7 +57,7 @@ Ajuste do **modelo de riscos proporcionais de Cox** para identificação dos fat
 
 ---
 
-## 📈 Principais Resultados
+##  Principais Resultados
 
 O modelo final de Cox reteve as covariáveis **GRADE**, **T_STAGE**, **N_STAGE** e **COND**:
 
@@ -76,7 +76,7 @@ O modelo final de Cox reteve as covariáveis **GRADE**, **T_STAGE**, **N_STAGE**
 
 ---
 
-## 🛠️ Ferramentas e Pacotes
+##  Ferramentas e Pacotes
 
 - **Linguagem:** R
 - **Pacotes principais:**
@@ -86,7 +86,7 @@ O modelo final de Cox reteve as covariáveis **GRADE**, **T_STAGE**, **N_STAGE**
 
 ---
 
-## 🖼️ Visualizações
+##  Visualizações
  
 ### Curvas de Kaplan-Meier
  
@@ -130,19 +130,6 @@ O modelo final de Cox reteve as covariáveis **GRADE**, **T_STAGE**, **N_STAGE**
 ![Log risco COND](projeto-tcc/figures/fit4.png)
 
 
-
-## 📁 Estrutura do Repositório
-
-```
-├── data/
-│   └── base_oncologica.xlsx          # Base de dados (RTOG)
-├── scripts/
-│   ├── 01_descritiva.R         # Análise descritiva, Curvas KM e testes log-rank
-│   └── 02_diagnostico.R        # Ajuste e seleção do modelo de Cox, Resíduos de Schoenfeld e gráficos de diagnóstico
-├── figures/
-│   └── *.png                   # Gráficos gerados
-└── README.md
-```
 
 ---
 
