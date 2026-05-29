@@ -133,7 +133,7 @@ O modelo final de Cox reteve as covariáveis **GRADE**, **T_STAGE**, **N_STAGE**
 
 ---
 
-## 📚 Referências
+##  Referências
 
 - COX, D. R. Regression models and life-tables. *Journal of the Royal Statistical Society*, v. 34, n. 2, p. 187–220, 1972.
 - KAPLAN, E. L.; MEIER, P. Nonparametric estimation from incomplete observations. *JASA*, v. 53, n. 282, p. 457–481, 1958.
@@ -141,7 +141,4 @@ O modelo final de Cox reteve as covariáveis **GRADE**, **T_STAGE**, **N_STAGE**
 
 ---
 
-## 📬 Contato
 
-**Mirian Kely Leite Souza**  
-[LinkedIn](https://www.linkedin.com/in/mirianestatistica/) | miriankely27@gmail.com
