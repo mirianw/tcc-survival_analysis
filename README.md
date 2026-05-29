@@ -2,8 +2,6 @@
 
 > Trabalho de Conclusão de Curso — Bacharelado em Estatística  
 > Universidade Federal de Ouro Preto (UFOP), 2026  
-> Autora: Mirian Kely Leite Souza  
-> Orientadora: Prof.ª Dr.ª Graziela Dutra Rocha Gouvea
 
 ---
 
